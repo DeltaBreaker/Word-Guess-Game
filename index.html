@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Word Guess Game</title>
+        <link rel="stylesheet" href="res/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="main-header">Word Guess Game</h1>
+            <button id="start-button">Start</button>
+        </header>
+        <container id="container">
+            <word id="word">
+                <h2 id="word-header"></h2>
+            </word>
+            <scoreboard id="scoreboard">
+                <h3 id="wins">Wins: 0</h3>
+                <h3 id="losses">Losses: 0</h3>
+                <button id="reset">Reset Score</button>
+                <div id="time-container">
+                    <h1 id="time-remaining">60</h1>
+                    <h2 id="seconds">seconds remaining</h2>
+                </div>
+            </scoreboard>
+        </container>
+        <script src="res/script.js"></script>
+    </body>
+</html>
